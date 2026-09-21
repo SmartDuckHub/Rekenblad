@@ -3621,8 +3621,6 @@ gen         = 0
 tabTop      = 1
 bestand     = ExePath + SEP + "bladen" + SEP + "werkblad.bld"
 
-InitMenuBalk
-
 For i = 1 To 8
     arg = Command(i)
     If Len(arg) = 0 Then Exit For
@@ -3669,6 +3667,8 @@ If Len(dataMap) = 0 Then dataMap = ExePath
 MkDir dataMap
 
 If schaalGezet = 0 Then LaadInstellingen
+
+InitMenuBalk
 
 If SchermInit() = 0 Then
     Print APP_NAAM + ": er is te weinig ruimte (minimaal " + _
