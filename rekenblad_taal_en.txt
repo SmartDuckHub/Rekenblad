@@ -1,0 +1,263 @@
+' Engelse vertaling voor Rekenblad -- 'nederlandse tekst => english text'
+' met de hand aan te passen; regels die met ' beginnen zijn commentaar
+' en lege regels worden overgeslagen. Gebruik: taal=en in Rekenblad.cfg
+' (of taal=auto, dan wordt dit bestand gebruikt zodra je systeemtaal
+' Engels is).
+'
+' %1, %2 en %3 zijn invulplekken; die blijven in de vertaling staan.
+' De volgorde mag wel wijzigen als dat in het Engels beter loopt.
+
+' ------------------------------------------------------------------
+'  Menubalk
+' ------------------------------------------------------------------
+Bestand => File
+Bewerken => Edit
+Blad => Sheet
+Opmaak => Format
+Extra => Tools
+Help => Help
+
+Openen... => Open...
+Opslaan => Save
+Opslaan als... => Save as...
+Exporteren naar CSV... => Export to CSV...
+Afdrukken... => Print...
+Instellingen... => Settings...
+Stoppen => Quit
+
+Kopieren => Copy
+Plakken => Paste
+Bereik leegmaken => Clear range
+Zoeken => Find
+Ga naar cel => Go to cell
+
+Nieuw tabblad => New sheet
+Tabblad hernoemen => Rename sheet
+Tabblad verwijderen => Delete sheet
+Volgend tabblad => Next sheet
+Vorig tabblad => Previous sheet
+
+Kolombreedte => Column width
+Kolomopmaak => Column format
+Rij invoegen => Insert row
+Rij verwijderen => Delete row
+Kolom invoegen => Insert column
+Kolom verwijderen => Delete column
+
+Alles herberekenen => Recalculate all
+Tekens groter => Larger characters
+Tekens kleiner => Smaller characters
+Toetsproef... => Key test...
+
+Hulp => Help
+Over Rekenblad => About Rekenblad
+
+' ------------------------------------------------------------------
+'  Over Rekenblad
+' ------------------------------------------------------------------
+COPYRIGHT => COPYRIGHT
+Copyright 2026 door Marcel => Copyright 2026 by Marcel
+LICENTIE => LICENCE
+BSD 3-Clause => BSD 3-Clause
+Deze is bijgesloten bij de broncode als separaat bestand. => It is included with the source code as a separate file.
+druk op een toets om terug te gaan => press any key to go back
+
+' ------------------------------------------------------------------
+'  Dialoogvensters
+' ------------------------------------------------------------------
+Bevestigen => Confirm
+J = ja      N = nee (Esc) => Y = yes      N = no (Esc)
+Enter = ok   Esc = annuleren   Ctrl+U = leegmaken => Enter = OK   Esc = cancel   Ctrl+U = clear
+Enter = kiezen   Esc = terug => Enter = choose   Esc = back
+Enter = vastleggen   Esc = annuleren   Ctrl+U = leegmaken => Enter = confirm   Esc = cancel   Ctrl+U = clear
+Druk op een toets... => Press any key...
+Druk op een toets. => Press a key.
+Ctrl+Q = terug => Ctrl+Q = back
+Toetsproef => Key test
+(nog geen toets) => (no key yet)
+uitgebreid, scancode %1 => extended, scancode %1
+gewoon, code %1 => plain, code %1
+teken %1 => character %1
+Pijl op/neer schuift %1 regel %2-%3 van %4 %5 Esc sluit => Up/down arrow scrolls %1 line %2-%3 of %4 %5 Esc closes
+
+' ------------------------------------------------------------------
+'  Bestanden
+' ------------------------------------------------------------------
+Opslaan als => Save as
+Bestandsnaam: => File name:
+Bestand kiezen => Choose file
+Bestand openen => Open file
+Geen bestanden gevonden. => No files found.
+Niet-opgeslagen wijzigingen. Doorgaan? => Unsaved changes. Continue anyway?
+Opgeslagen in %1 => Saved to %1
+Kan %1 niet schrijven! => Can't write %1!
+Kan niet schrijven naar: %1 => Can't write to: %1
+Exporteren naar CSV => Export to CSV
+Tabblad %1 staat in %2 => Sheet %1 has been written to %2
+Dit tabblad is leeg. => This sheet is empty.
+Nieuw bestand %1 => New file %1
+Geladen: %1 => Loaded: %1
+F1 geeft hulp => F1 for help
+
+' ------------------------------------------------------------------
+'  Afdrukken
+' ------------------------------------------------------------------
+Pagina %1 => Page %1
+PostScript geschreven: %1 (%2 pagina's) => PostScript written: %1 (%2 pages)
+Geexporteerd naar tekst: %1 => Exported to text: %1
+Printopdracht verstuurd (retourcode %1). => Print job sent (return code %1).
+Op Windows is een poort- of printernaam nodig (Ctrl+T) - er is niet afgedrukt. => On Windows a port or printer name is required (Ctrl+T) - nothing was printed.
+
+' ------------------------------------------------------------------
+'  Instellingen
+' ------------------------------------------------------------------
+Taal (nl/en/auto): => Language (nl/en/auto):
+Matrixprinter gebruiken (platte tekst, raw)? (nu: %1) => Use dot-matrix printer (raw plain text)? (currently: %1)
+Printer/poort (nu: %1; Linux: lpr -P-naam, Windows: LPT1, COM1 of \\pc\printer): => Printer/port (currently: %1; Linux: lpr -P name, Windows: LPT1, COM1 or \\pc\printer):
+systeemstandaard => system default
+Instellingen bijgewerkt. => Settings updated.
+aan => on
+uit => off
+
+' ------------------------------------------------------------------
+'  Cellen bewerken
+' ------------------------------------------------------------------
+Dit tabblad zit vol (%1 cellen). => This sheet is full (%1 cells).
+Breedte van kolom %1 (%2..%3): => Width of column %1 (%2..%3):
+Kolom %1 is nu %2 tekens breed. => Column %1 is now %2 characters wide.
+Decimalen in kolom %1 => Decimals in column %1
+Uitlijning in kolom %1 => Alignment in column %1
+Algemeen (zoveel cijfers als nodig) => General (as many digits as needed)
+0 decimalen => 0 decimals
+1 decimaal => 1 decimal
+2 decimalen => 2 decimals
+3 decimalen => 3 decimals
+4 decimalen => 4 decimals
+Automatisch (tekst links, getallen rechts) => Automatic (text left, numbers right)
+Links => Left
+Rechts => Right
+Midden => Centre
+
+' ------------------------------------------------------------------
+'  Blokken
+' ------------------------------------------------------------------
+Welk bereik wil je kopieren? => Which range do you want to copy?
+Waar moet het naartoe? => Where should it go?
+Welk bereik moet leeg? => Which range should be cleared?
+Leegmaken => Clear
+Dat is geen geldig bereik: %1 => That is not a valid range: %1
+Dat is geen celverwijzing: %1 => That is not a cell reference: %1
+Zoveel cellen passen niet op het klembord. => That many cells don't fit on the clipboard.
+Er staat nog niets op het klembord (Ctrl+K). => There is nothing on the clipboard yet (Ctrl+K).
+Gekopieerd: %1:%2 %3 gevulde cel(len) => Copied: %1:%2 %3 filled cell(s)
+Schaal %1x %2 tekens van %3 pixels => Scale %1x %2 characters of %3 pixels
+%1 cel(len) geplakt. => %1 cell(s) pasted.
+%1 cel(len) leeggemaakt. => %1 cell(s) cleared.
+
+' ------------------------------------------------------------------
+'  Rijen en kolommen
+' ------------------------------------------------------------------
+De onderste rij is niet leeg; er kan niets bij. => The bottom row is not empty; nothing can be added.
+De laatste kolom (IV) is niet leeg; er kan niets bij. => The last column (IV) is not empty; nothing can be added.
+Rij %1 ingevoegd. => Row %1 inserted.
+Rij %1 verwijderd. => Row %1 deleted.
+Kolom %1 ingevoegd. => Column %1 inserted.
+Kolom %1 verwijderd. => Column %1 deleted.
+
+' ------------------------------------------------------------------
+'  Ga naar en zoeken
+' ------------------------------------------------------------------
+Ga naar => Go to
+Naar welke cel? (bv. C12 of %1!A1) => Which cell? (e.g. C12 or %1!A1)
+Er is geen tabblad dat %1 heet. => There is no sheet called %1.
+Zoek naar (in alle tabbladen): => Search for (in all sheets):
+Niets gevonden voor: %1 => Nothing found for: %1
+Gevonden: %1 => Found: %1
+
+' ------------------------------------------------------------------
+'  Tabbladen
+' ------------------------------------------------------------------
+Meer dan %1 tabbladen kan niet. => More than %1 sheets is not possible.
+Naam (letters, cijfers, liggend streepje): => Name (letters, digits, underscore):
+Er is al een tabblad dat %1 heet. => There is already a sheet called %1.
+Tabblad %1 aangemaakt. => Sheet %1 created.
+Nieuwe naam: => New name:
+%1 heet nu %2. => %1 is now called %2.
+Er moet minstens een tabblad overblijven. => At least one sheet must remain.
+Tabblad %1 verwijderen? => Delete sheet %1?
+Tabblad %1 is weg. Formules die ernaar verwezen geven nu #NAAM?. => Sheet %1 is gone. Formulas that referred to it now give #NAAM?.
+Alles opnieuw uitgerekend. => Everything recalculated.
+Rekenblad afsluiten? => Quit Rekenblad?
+Wijzigingen opslaan in %1? => Save changes to %1?
+
+' ------------------------------------------------------------------
+'  Schaal
+' ------------------------------------------------------------------
+Schaal %1x is al de grens. => Scale %1x is already the limit.
+Schaal %1x past niet op dit scherm. => Scale %1x doesn't fit this screen.
+
+' ------------------------------------------------------------------
+'  Status- en helpbalk
+' ------------------------------------------------------------------
+leeg => empty
+tekst => text
+getal %1 => number %1
+formule = %1 => formula = %1
+formule %1 => formula %1
+%1 cellen gevuld => %1 cells filled
+tabblad %1/%2 => sheet %1/%2
+ F1 Hulp  F2 Bewerk  F3 Breedte  F5 Ganaar  F6/F7 Tabblad  F9 Zoek  ^K Kopieer  ^V Plak ^Q Stop =>  F1 Help  F2 Edit  F3 Width  F5 Goto  F6/F7 Sheet  F9 Find  ^K Copy  ^V Paste ^Q Quit
+
+' ------------------------------------------------------------------
+'  Hulpscherm (F1)
+' ------------------------------------------------------------------
+BEWEGEN => MOVING AROUND
+  Pijltoetsen ...... cel voor cel          Tab .. cel naar rechts =>   Arrow keys ....... cell by cell           Tab .. cell to the right
+  PgUp / PgDn ...... scherm omhoog/omlaag =>   PgUp / PgDn ...... screen up/down
+  Home / End ....... eerste / laatste gevulde kolom van deze rij =>   Home / End ....... first / last filled column of this row
+  F5 / Ctrl+G ...... ga naar cel, bv. B12 of Kosten!A1 =>   F5 / Ctrl+G ...... go to cell, e.g. B12 or Kosten!A1
+  F6 / F7 .......... volgend / vorig tabblad =>   F6 / F7 .......... next / previous sheet
+INVOEREN => ENTERING DATA
+  Gewoon typen ..... begint meteen met invoeren in de cursorcel =>   Just typing ...... starts entering straight into the cursor cell
+  Enter / F2 ....... de huidige cel bewerken =>   Enter / F2 ....... edit the current cell
+  Del / Backspace .. cel wissen =>   Del / Backspace .. clear cell
+  Een getal wordt een getal, = + of @ vooraf maakt een formule, =>   A number becomes a number, a leading = + or @ makes a formula,
+  al het andere is tekst. Een apostrof dwingt tekst af: '007 =>   everything else is text. An apostrophe forces text: '007
+FORMULES => FORMULAS
+  Rekenen .......... + - * / ^ en haakjes, bv. =(A1+A2)*1.21 =>   Arithmetic ....... + - * / ^ and brackets, e.g. =(A1+A2)*1.21
+  Vergelijken ...... = <> < > <= >= geven 1 (waar) of 0 (onwaar) =>   Comparing ........ = <> < > <= >= give 1 (true) or 0 (false)
+  Verwijzen ........ A1   $A$1 blijft staan bij kopieren =>   References ....... A1   $A$1 stays put when copying
+                     Kosten!B3 wijst naar een ander tabblad =>                      Kosten!B3 points at another sheet
+  Bereik ........... A1:B10  (ook A1..B10 mag) =>   Range ............ A1:B10  (A1..B10 works too)
+  Over bereiken .... SOM GEM MIN MAX AANTAL =>   Over ranges ...... SOM GEM MIN MAX AANTAL
+  Over getallen .... ABS INT WORTEL AFROND(x;n) REST(x;y) MACHT(x;y) =>   Over numbers ..... ABS INT WORTEL AFROND(x;n) REST(x;y) MACHT(x;y)
+                     EXP LN LOG SIN COS TAN PI() =>                      EXP LN LOG SIN COS TAN PI()
+  Kiezen ........... ALS(voorwaarde;dan;anders) =>   Choosing ......... ALS(condition;then;else)
+  Argumenten scheiden met ; of , ; de decimale punt is een punt. =>   Separate arguments with ; or , ; the decimal separator is a point.
+  Fouten: #DEEL/0 #NAAM? #SYNTAX #KRING! #VERW! #GETAL! #ARG! #DIEP! =>   Errors: #DEEL/0 #NAAM? #SYNTAX #KRING! #VERW! #GETAL! #ARG! #DIEP!
+KOLOMMEN EN OPMAAK => COLUMNS AND FORMATTING
+  F3 ............... breedte van deze kolom (3..40) =>   F3 ............... width of this column (3..40)
+  F4 ............... decimalen en uitlijning van deze kolom =>   F4 ............... decimals and alignment of this column
+BLOKKEN => BLOCKS
+  Ctrl+K ........... kopieren; vraagt welk bereik =>   Ctrl+K ........... copy; asks which range
+  Ctrl+V ........... plakken; vraagt waar. Verwijzingen schuiven =>   Ctrl+V ........... paste; asks where. References shift along,
+                     mee, tenzij er een $ voor staat. Een enkele =>                      unless prefixed with $. A single copied
+                     gekopieerde cel vult een heel doelbereik. =>                      cell fills an entire target range.
+  Ctrl+W ........... een bereik leegmaken =>   Ctrl+W ........... clear a range
+MENU EN BESTAND => MENU AND FILES
+  F10 of Esc ....... menu: bestand, bewerken, opmaak, tabbladen, extra =>   F10 or Esc ....... menu: file, edit, format, sheets, tools
+  Pijltjes links/rechts wisselen van categorie, omhoog/omlaag van item =>   Left/right arrows switch category, up/down switch item
+  Ctrl+S ........... opslaan          F8 ..... alles herberekenen =>   Ctrl+S ........... save             F8 ..... recalculate all
+  Ctrl+N ........... nieuw tabblad    F9 ..... zoeken in alle bladen =>   Ctrl+N ........... new sheet        F9 ..... search all sheets
+  Ctrl+P ........... afdrukken        Ctrl+T .. instellingen (printer/taal) =>   Ctrl+P ........... print            Ctrl+T .. settings (printer/language)
+  Ctrl+Z ........... over Rekenblad =>   Ctrl+Z ........... about Rekenblad
+  F11 / F12 ........ tekens kleiner / groter (ook via Extra in het menu) =>   F11 / F12 ........ smaller / larger characters (also via Tools menu)
+  Ctrl+Q ........... afsluiten (vraagt eerst of er opgeslagen moet) =>   Ctrl+Q ........... quit (asks first whether to save)
+                     Stoppen in het Bestand-menu doet hetzelfde =>                      Quit in the File menu does the same
+
+' ------------------------------------------------------------------
+'  Opstarten en afsluiten
+' ------------------------------------------------------------------
+%1: er is te weinig ruimte (minimaal %2 x %3 tekens). => %1: there isn't enough room (minimum %2 x %3 characters).
+Kies een kleinere schaal met -z1, of gebruik een groter beeldscherm. => Choose a smaller scale with -z1, or use a bigger screen.
+%1 tabblad(en). Tot ziens! => %1 sheet(s). Goodbye!
