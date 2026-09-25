@@ -1,6 +1,6 @@
 # Rekenblad
 
-Een rekenblad in een grafisch venster, in de stijl van Woord en
+Een rekenblad in een grafisch venster, in de stijl van Schrijf en
 Kalender (FreeBASIC / fblite-dialect, gfxlib). Twaalf tabbladen van 260
 kolommen (A..IZ) bij 4096 rijen, met formules.
 
